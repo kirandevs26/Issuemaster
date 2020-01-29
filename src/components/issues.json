@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Database Connectivity Failure",
+        "value": 1,
+        "info": "Invalid username/password"
+    },
+    {
+        "label": "RestAPI call made and couldn't fetch any data",
+        "value": 2,
+        "info": "Api throwing 500 internal server Error"
+    },
+    {
+        "label": "External API call authorization failed",
+        "value": 3,
+        "info": "Auth token expired"
+    },
+    {
+        "label": "Database servers are down",
+        "value": 4,
+        "info": "Network reaches maximum traffic"
+    },
+    {
+        "label": "UI rendering error",
+        "value": 5,
+        "info": "cannot read property of undefined"
+    }
+]

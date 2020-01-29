@@ -1,0 +1,81 @@
+.search_dropdown {
+    position: relative;
+    width: 100%;
+    text-align: left;
+  }
+  .search_dropdown input {
+    width: 100%;
+    padding: 4.8px 0px 4.8px 0px;
+    background: #fff;
+    border: 1px solid #949494;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .search_dropdown .motif-icon-text {
+    position: absolute;
+    right: 0;
+    top: 6px;
+  }
+  .search_dropdown .motif-icon-text::before {
+    color: blue;
+    font-weight: 600;
+  }
+  .search_dropdown .active {
+    opacity: 1;
+  }
+  .search_dropdown .capitalize {
+    text-transform: capitalize;
+  }
+  .search_dropdown.pfSelect {
+    position: relative;
+    /* min-width: 250px; */
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  .search_dropdown.pfSelect legend {
+    margin-bottom: 6px;
+  }
+  .search_dropdown input[type="text"]:focus {
+    background: #fff;
+    outline: none;
+  }
+  .search_dropdown .psDropdown {
+    width: 100%;
+    padding: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    -webkit-transition: max-height 0.25s ease-out;
+    -o-transition: max-height 0.25s ease-out;
+    transition: max-height 0.25s ease-out;
+    background: #fff;
+    text-transform: capitalize;
+  }
+  .search_dropdown .psDropdown.active {
+    max-height: 210px;
+    padding-top: 0px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    z-index: 100;
+  }
+  .search_dropdown .psLabel {
+    display: block;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 0px;
+    font-weight: 400;
+  }
+  .search_dropdown .psLabel:hover {
+    background: #005b99;
+    color: #fff;
+  }
+  .search_dropdown .psLabel.selected {
+    background: #082b53;
+    color: #fff;
+  }
+  
